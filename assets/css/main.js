@@ -1711,6 +1711,12 @@ export default StyleSheet.create({
         "borderBottomColor": "transparent",
         "color": "#f2849e !important"
     },
+    "about": {
+        "marginTop": 2,
+        "marginRight": 0,
+        "marginBottom": 2,
+        "marginLeft": 0
+    },
     "h1 a": {
         "color": "inherit"
     },
