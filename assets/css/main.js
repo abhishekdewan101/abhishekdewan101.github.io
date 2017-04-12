@@ -259,7 +259,7 @@ export default StyleSheet.create({
         "paddingBottom": 0,
         "paddingLeft": 0,
         "border": 0,
-        "fontSize": 0.9,
+        "fontSize": 18,
         "font": "inherit",
         "verticalAlign": "baseline",
         "WebkitOverflowScrolling": "touch",
@@ -1709,7 +1709,7 @@ export default StyleSheet.create({
     },
     "a:hover": {
         "borderBottomColor": "transparent",
-        "color": "#f2849e !important"
+        "color": "#666"
     },
     "about": {
         "marginTop": 2,
@@ -3239,5 +3239,71 @@ export default StyleSheet.create({
         "paddingRight": 2.5,
         "paddingBottom": 0,
         "paddingLeft": 2.5
+    },
+    "svg": {
+        "paddingLeft": 100,
+        "width": "100%",
+        "marginTop": 0,
+        "marginRight": "auto",
+        "marginBottom": 0,
+        "marginLeft": "auto"
+    },
+    "rect": {
+        "fill": "none",
+        "pointerEvents": "all"
+    },
+    "line": {
+        "stroke": "#000",
+        "strokeWidth": 1.5
+    },
+    "string": {
+        "color": "#f39"
+    },
+    "regexp": {
+        "color": "#f39"
+    },
+    "keyword": {
+        "color": "#00c"
+    },
+    "comment": {
+        "color": "#777",
+        "fontStyle": "oblique"
+    },
+    "number": {
+        "color": "#369"
+    },
+    "class": {
+        "color": "#1181B8"
+    },
+    "special": {
+        "color": "#1181B8"
+    },
+    "a:link": {
+        "color": "steelblue",
+        "textDecoration": "none"
+    },
+    "a:visited": {
+        "color": "steelblue",
+        "textDecoration": "none"
+    },
+    "hint": {
+        "position": "absolute",
+        "right": 0,
+        "fontSize": 12,
+        "color": "#999"
+    },
+    "node circle": {
+        "cursor": "pointer",
+        "fill": "#fff",
+        "stroke": "steelblue",
+        "strokeWidth": 1.5
+    },
+    "node text": {
+        "fontSize": 12
+    },
+    "pathlink": {
+        "fill": "none",
+        "stroke": "#ccc",
+        "strokeWidth": 1.5
     }
 });
