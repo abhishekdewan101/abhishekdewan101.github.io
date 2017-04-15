@@ -3243,10 +3243,36 @@ export default StyleSheet.create({
     "reduced-bottom-margin": {
         "marginBottom": 1.4
     },
-    "detail-page-section": {
-        "backgroundColor": "#585858",
-        "color": "white",
+    "detail-page-section1": {
+        "color": "#585858",
         "borderRadius": 10,
+        "border": "2px solid #7ECAF6",
+        "paddingTop": 1,
+        "paddingRight": 1,
+        "paddingBottom": 1,
+        "paddingLeft": 1,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 2,
+        "marginLeft": 0
+    },
+    "detail-page-section2": {
+        "color": "#585858",
+        "borderRadius": 10,
+        "border": "2px solid #7BD0C1",
+        "paddingTop": 1,
+        "paddingRight": 1,
+        "paddingBottom": 1,
+        "paddingLeft": 1,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 2,
+        "marginLeft": 0
+    },
+    "detail-page-section3": {
+        "color": "#585858",
+        "borderRadius": 10,
+        "border": "2px solid #8499E7",
         "paddingTop": 1,
         "paddingRight": 1,
         "paddingBottom": 1,
@@ -3256,5 +3282,53 @@ export default StyleSheet.create({
         "marginRight": 0,
         "marginBottom": 2,
         "marginLeft": 0
+    },
+    "detail-page-section4": {
+        "color": "#585858",
+        "borderRadius": 10,
+        "border": "2px solid #AE85CA",
+        "paddingTop": 1,
+        "paddingRight": 1,
+        "paddingBottom": 1,
+        "paddingLeft": 1,
+        "height": 350,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 2,
+        "marginLeft": 0
+    },
+    "detail-page-section5": {
+        "color": "#585858",
+        "borderRadius": 10,
+        "border": "2px solid #F2849E",
+        "paddingTop": 1,
+        "paddingRight": 1,
+        "paddingBottom": 1,
+        "paddingLeft": 1,
+        "height": 350,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 2,
+        "marginLeft": 0
+    },
+    "detail-page-section1 h3": {
+        "color": "#7ECAF6",
+        "marginBottom": 0.5
+    },
+    "detail-page-section2 h3": {
+        "color": "#7BD0C1",
+        "marginBottom": 0.5
+    },
+    "detail-page-section3 h3": {
+        "color": "#8499E7",
+        "marginBottom": 0.5
+    },
+    "detail-page-section4 h3": {
+        "color": "#AE85CA",
+        "marginBottom": 0.5
+    },
+    "detail-page-section5 h3": {
+        "color": "#F2849E",
+        "marginBottom": 0.5
     }
 });
