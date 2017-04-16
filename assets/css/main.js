@@ -3277,7 +3277,6 @@ export default StyleSheet.create({
         "paddingRight": 1,
         "paddingBottom": 1,
         "paddingLeft": 1,
-        "height": 350,
         "marginTop": 0,
         "marginRight": 0,
         "marginBottom": 2,
@@ -3291,7 +3290,6 @@ export default StyleSheet.create({
         "paddingRight": 1,
         "paddingBottom": 1,
         "paddingLeft": 1,
-        "height": 350,
         "marginTop": 0,
         "marginRight": 0,
         "marginBottom": 2,
@@ -3305,7 +3303,6 @@ export default StyleSheet.create({
         "paddingRight": 1,
         "paddingBottom": 1,
         "paddingLeft": 1,
-        "height": 350,
         "marginTop": 0,
         "marginRight": 0,
         "marginBottom": 2,
@@ -3329,6 +3326,21 @@ export default StyleSheet.create({
     },
     "detail-page-section5 h3": {
         "color": "#F2849E",
+        "marginBottom": 0.5
+    },
+    "detail-page-section1 p": {
+        "marginBottom": 0.5
+    },
+    "detail-page-section2 p": {
+        "marginBottom": 0.5
+    },
+    "detail-page-section3 p": {
+        "marginBottom": 0.5
+    },
+    "detail-page-section4 p": {
+        "marginBottom": 0.5
+    },
+    "detail-page-section5 p": {
         "marginBottom": 0.5
     }
 });

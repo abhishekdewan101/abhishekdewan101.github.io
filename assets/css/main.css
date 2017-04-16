@@ -3399,7 +3399,7 @@
 	border-radius: 10px;
 	border: 2px solid #8499E7;
 	padding: 1em;
-	height: 350px;
+	/*height: 350px;*/
 	margin: 0 0 2em 0;
 }
 
@@ -3408,7 +3408,7 @@
 	border-radius: 10px;
 	border: 2px solid #AE85CA;
 	padding: 1em;
-	height: 350px;
+	/*height: 350px;*/
 	margin: 0 0 2em 0;
 }
 
@@ -3417,7 +3417,7 @@
 	border-radius: 10px;
 	border: 2px solid #F2849E;
 	padding: 1em;
-	height: 350px;
+	/*height: 350px;*/
 	margin: 0 0 2em 0;
 }
 .detail-page-section1 h3{
@@ -3438,5 +3438,21 @@
 }
 .detail-page-section5 h3{
 	color:#F2849E;
+	margin-bottom:0.5em
+}
+
+.detail-page-section1 p{
+	margin-bottom:0.5em
+}
+.detail-page-section2 p{
+	margin-bottom:0.5em
+}
+.detail-page-section3 p{
+	margin-bottom:0.5em
+}
+.detail-page-section4 p{
+	margin-bottom:0.5em
+}
+.detail-page-section5 p{
 	margin-bottom:0.5em
 }
