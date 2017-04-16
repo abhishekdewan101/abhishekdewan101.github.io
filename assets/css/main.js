@@ -3342,5 +3342,12 @@ export default StyleSheet.create({
     },
     "detail-page-section5 p": {
         "marginBottom": 0.5
+    },
+    "image-caption": {
+        "textAlign": "center",
+        "paddingTop": 1,
+        "paddingBottom": 1,
+        "fontSize": 0.8,
+        "fontWeight": "600"
     }
 });
