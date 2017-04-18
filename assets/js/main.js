@@ -192,9 +192,47 @@
 					// Hide on escape.
 						if (event.keyCode == 27)
 							$menu._hide();
-
 				});
 
 	});
 
 })(jQuery);
+
+//Custom JS
+
+document.getElementById('password').onkeydown = function(event){
+	if($('#wrongPassword').css('visibility') === "visible"){
+		$('#wrongPassword').css('visibility','hidden');
+	}
+
+	if(event.keyCode == 13){
+		var passwordField = document.getElementById('password');
+		$.getJSON('../assets/files/password.json',function(data){
+			var password = data.password;
+			if(passwordField.value === password){
+				window.location.replace("main.html");
+			}else{
+				console.log("wrong password")
+				$('#wrongPassword').css('visibility','visible');
+			}
+		});
+	}
+}
+
+document.getElementById('password').onfocus = function(event){
+	$('#wrongPassword').css('visibility','hidden');
+}
+
+
+document.getElementById('login').onclick = function(event){
+	var passwordField = document.getElementById('password');
+	$.getJSON('../assets/files/password.json',function(data){
+		var password = data.password;
+		if(passwordField.value === password){
+			window.location.replace("main.html");
+		}else{
+			console.log("wrong password")
+			$('#wrongPassword').css('visibility','visible');
+		}
+	});
+}
