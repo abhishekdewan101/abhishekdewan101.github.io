@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Gesture Recognition Prototype</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="../index.html" class="logo">
+									<span class="symbol"><img src="../images/logo.svg" alt="" /></span><span class="title">Abhishek Dewan</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="../index.html">Home</a></li>
+							<li><a href="education.html">Work and Education</a></li>
+							<li><a href="skills.html">Skills</a></li>
+							<li><a href="../assets/files/resume.pdf">Resume</a></li>
+							<li><a href="about.html">About Me</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Gesture Recognition Prototype</h1>
+							<div class="row uniform" style="padding-top:0.5em">
+								<div class="12u"><span class="image fit" style="text-align:center;padding-top:1.5em">
+									<video width="100%" height="600" autoplay loop controls>
+										<source src="../images/gesture/gesture.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+									</video>
+								</span></div>
+							</div>
+							<section>
+
+								<div class="detail-page-section1 12u">
+									<h3>Summary</h3>
+
+										<p>
+											<b>Aim</b>
+											<br>Gesture recognition is becoming an integral part of the technology we have started using today. Exploiting this, the project was aimed at exploring how the user expereince would look like if gestures are used to interact with an user interface.
+
+										</p>
+
+										<p>
+											<b>Solution</b>
+											<br>Using some off the shelf gesture recognition libraries and a custom gesture recognition algorithm, the system is able to use a depth sensing camera to track the user's hand and then be able to make the user interface changed based on the actions performed by the user.<br>
+										</p>
+
+										<p>
+										<b>Role</b>
+											<br>Prototyper | Desing Technologist<br>
+										</p>
+								</div>
+
+								<!-- <div class="detail-page-section2 12u">
+									<h3>The Journey</h3>
+										<p>
+											<b>Research</b>
+											<br>Since this project was just an experiment, the research phase was very brief focussing on researching exisisting products that perform the same things that we were trying to do. During the course of my research I came across a open source project that allowed android phones to share video content with apple tv's. The library was called "Connect SDK" and this library was used to create the prototype.<br>
+										</p>
+
+										<p>
+											<b>Iterative design</b>
+											<br>In order to provide the user with a seamless experience, a guiding principle while designing was to ensure that it takes the user the least amount of steps to perform the sharing. The process of pairing devices should have a simplified user interface that is intuitive and is invokable anywhere in the system.<br>
+											We went through several iterations of how the interaction should look like. With every iteration, I would do a quick prototype and we would conduct a gorilla user study session to get feedback from our colleagues.<br>
+											<div class="row uniform" style="padding-top:0.5em">
+												<div class="4u"><span class="image fit"><img src="../images/projecta/exp1.png" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="../images/projecta/exp2.png" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="../images/projecta/exp3.png" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="../images/projecta/exp4.png" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="../images/projecta/exp5.png" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="../images/projecta/exp6.png" alt="" /></span></div>
+											</div>
+											<div class="image-caption">Working through the different variations</div>
+											The final solution as can be seen was able to cut down the number of steps down to 4 and also provided the user with the ability to cast audio content to a speaker that is not connected to the TV.<br>
+											<div class="row uniform" style="padding-top:0.5em">
+												<div class="12u"><span class="image fit"><img src="../images/projecta/steps.png" alt="" /></span></div>
+											</div>
+											<div class="image-caption">Steps to share</div>
+										</p>
+									</div> -->
+
+								<div class="detail-page-section3 12u">
+									<h3>Prototype</h3>
+									<p>
+										To create a prototype a depth camera was used with off the shelf depth sensing libraries to be able to calculate the (x,y,z) coordinates of the hand in real time. The cooridnates were then fed into the nodeJS server to be plugged into a custom gesture recognition algorithm that allowed the system to detect what types of actions were being performed by the user. The system afforded for 6 degrees of
+										freedome when it came to detecting the different actions that the user could perform. These actions were then sent over websockets to the client HTML page that awould turn the user's actions into actual actions on the screen.
+										<div class="row uniform" style="padding-top:0.5em">
+											<div class="12u"><span class="image fit"><img src="../images/gesture/gesture1.png" alt="" /></span></div>
+										</div>
+										<div class="image-caption">Prototype Workflow</div>
+									</p>
+								</div>
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="https://www.enformed.io/gm99cw1y">
+									<div class="field half first">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="field half">
+										<input type="email" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="special" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+										<li><a href="https://www.instagram.com/dewan_abhishek_101/?hl=en" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="https://github.com/abhishekdewan101" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
